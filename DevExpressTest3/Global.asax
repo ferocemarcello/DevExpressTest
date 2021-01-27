@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.cs" Inherits="DevExpressTest3.Global_asax" Language="C#" %>

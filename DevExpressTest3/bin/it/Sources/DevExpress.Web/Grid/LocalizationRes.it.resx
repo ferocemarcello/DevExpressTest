@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxGridViewStringId.Summary_Sum_OtherColumn">
+    <value>Somma di {1} è {0}</value>
+  </data>
+  <data name="ASPxGridViewStringId.Alt_HeaderFilterButtonActive">
+    <value>Filtro attivo</value>
+  </data>
+  <data name="ASPxGridViewStringId.AutoFilterLess">
+    <value>Minore</value>
+  </data>
+  <data name="ASPxGridViewStringId.Outlook_ThreeWeeksAgo">
+    <value>Tre Settimane fa</value>
+  </data>
+  <data name="ASPxGridViewStringId.Alt_DragAndDropHideColumnIcon">
+    <value>Nascondi</value>
+  </data>
+  <data name="ASPxGridViewStringId.AutoFilterGreaterOrEqual">
+    <value>Maggiore o uguale</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterShowNonBlanksItem">
+    <value>(Non vuoti)</value>
+  </data>
+  <data name="ASPxGridViewStringId.Alt_SortedDescending">
+    <value>(Decrescente)</value>
+  </data>
+  <data name="ASPxGridViewStringId.AutoFilterNotEqual">
+    <value>Non uguale</value>
+  </data>
+  <data name="ASPxGridViewStringId.GroupContinuedOnNextPage">
+    <value>(Continua alla pagina successiva)</value>
+  </data>
+  <data name="ASPxGridViewStringId.Outlook_ThreeWeeksAway">
+    <value>Tra tre Settimane</value>
+  </data>
+  <data name="ASPxGridViewStringId.Outlook_Today">
+    <value>Oggi</value>
+  </data>
+  <data name="ASPxGridViewStringId.Summary_Average_OtherColumn">
+    <value>Media di {1} è {0}</value>
+  </data>
+  <data name="ASPxGridViewStringId.ConfirmDelete">
+    <value>Confermare l'eliminazione?</value>
+  </data>
+  <data name="ASPxGridViewStringId.AutoFilterDoesNotContain">
+    <value>Non contiene</value>
+  </data>
+  <data name="ASPxGridViewStringId.Alt_SortedAscending">
+    <value>(Crescente)</value>
+  </data>
+  <data name="ASPxGridViewStringId.Summary_Count">
+    <value>Conteggio={0}</value>
+  </data>
+  <data name="ASPxGridViewStringId.Outlook_NextWeek">
+    <value>Settimana Prossima</value>
+  </data>
+  <data name="ASPxGridViewStringId.Summary_Sum">
+    <value>Somma={0}</value>
+  </data>
+  <data name="ASPxGridViewStringId.Outlook_Older">
+    <value>Vecchi</value>
+  </data>
+  <data name="ASPxGridViewStringId.Outlook_LastWeek">
+    <value>Settimana Precedente</value>
+  </data>
+  <data name="ASPxGridViewStringId.Outlook_EarlierThisMonth">
+    <value>All'Inizio del Corrente Mese</value>
+  </data>
+  <data name="ASPxGridViewStringId.Outlook_LastMonth">
+    <value>Mese Precedente</value>
+  </data>
+  <data name="ASPxGridViewStringId.Summary_Max_OtherColumn">
+    <value>Massimo di {1} è {0}</value>
+  </data>
+  <data name="ASPxGridViewStringId.AutoFilterGreater">
+    <value>Maggiore</value>
+  </data>
+  <data name="ASPxGridViewStringId.Outlook_NextMonth">
+    <value>Mese Prossimo</value>
+  </data>
+  <data name="ASPxGridViewStringId.CommandCancel">
+    <value>Annulla</value>
+  </data>
+  <data name="ASPxGridViewStringId.Outlook_Yesterday">
+    <value>Ieri</value>
+  </data>
+  <data name="ASPxGridViewStringId.GroupPanel">
+    <value>Trascina qui le intestazioni delle colonne per raggrupparne i valori</value>
+  </data>
+  <data name="ASPxGridViewStringId.Outlook_BeyondNextMonth">
+    <value>Dopo il Mese Prossimo</value>
+  </data>
+  <data name="ASPxGridViewStringId.Alt_HeaderFilterButton">
+    <value>Filtra</value>
+  </data>
+  <data name="ASPxGridViewStringId.Outlook_TwoWeeksAgo">
+    <value>Due Settimane fa</value>
+  </data>
+  <data name="ASPxGridViewStringId.EmptyDataRow">
+    <value>Nessun dato da visualizzare</value>
+  </data>
+  <data name="ASPxGridViewStringId.AutoFilterEquals">
+    <value>Uguale</value>
+  </data>
+  <data name="ASPxGridViewStringId.AutoFilterContains">
+    <value>Contiene</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterShowAllItem">
+    <value>(Tutti)</value>
+  </data>
+  <data name="ASPxGridViewStringId.Alt_FilterRowButton">
+    <value>[Condizione]</value>
+  </data>
+  <data name="ASPxGridViewStringId.CommandDelete">
+    <value>Elimina</value>
+  </data>
+  <data name="ASPxGridViewStringId.CommandSelect">
+    <value>Seleziona</value>
+  </data>
+  <data name="ASPxGridViewStringId.AutoFilterLessOrEqual">
+    <value>Minore o uguale</value>
+  </data>
+  <data name="ASPxGridViewStringId.Alt_Expand">
+    <value>[Espandi]</value>
+  </data>
+  <data name="ASPxGridViewStringId.EmptyHeaders">
+    <value>Trascinare una colonna qui...</value>
+  </data>
+  <data name="ASPxGridViewStringId.CommandNew">
+    <value>Nuovo</value>
+  </data>
+  <data name="ASPxGridViewStringId.Outlook_TwoWeeksAway">
+    <value>Tra due Settimane</value>
+  </data>
+  <data name="ASPxGridViewStringId.AutoFilterEndsWith">
+    <value>Finisce con</value>
+  </data>
+  <data name="ASPxGridViewStringId.CustomizationWindowCaption">
+    <value>Selettore campo</value>
+  </data>
+  <data name="ASPxGridViewStringId.PopupEditFormCaption">
+    <value>Modifica Form</value>
+  </data>
+  <data name="ASPxGridViewStringId.CommandUpdate">
+    <value>Salva</value>
+  </data>
+  <data name="ASPxGridViewStringId.CommandClearFilter">
+    <value>Pulisci</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterShowBlanksItem">
+    <value>(Vuoti)</value>
+  </data>
+  <data name="ASPxGridViewStringId.AutoFilterBeginsWith">
+    <value>Inizia con</value>
+  </data>
+  <data name="ASPxGridViewStringId.Alt_Collapse">
+    <value>[Collassa]</value>
+  </data>
+  <data name="ASPxGridViewStringId.Summary_Min_OtherColumn">
+    <value>Minimo di {1} è {0}</value>
+  </data>
+  <data name="ASPxGridViewStringId.Summary_Average">
+    <value>Media={0}</value>
+  </data>
+  <data name="ASPxGridViewStringId.CommandEdit">
+    <value>Modifica</value>
+  </data>
+  <data name="ASPxGridViewStringId.Outlook_Tomorrow">
+    <value>Domani</value>
+  </data>
+  <data name="ASPxGridViewStringId.Outlook_LaterThisMonth">
+    <value>Alla Fine del Corrente Mese</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterOkButton">
+    <value>OK</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterSelectAll">
+    <value>(Seleziona tutto)</value>
+  </data>
+  <data name="ASPxGridViewStringId.Summary_Max">
+    <value>Max = {0}</value>
+  </data>
+  <data name="ASPxGridViewStringId.Summary_Min">
+    <value>Min = {0}</value>
+  </data>
+  <data name="ASPxGridViewStringId.AutoFilterLike">
+    <value>Like ('%', '_')</value>
+  </data>
+  <data name="ASPxGridViewStringId.AutoFilterLikeToolTip">
+    <value>Due simboli jolly sono supportati:
+ '%' sostituisce zero o più caratteri;
+ '_' sostituisce un singolo carattere.</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterCancelButton">
+    <value>Annulla</value>
+  </data>
+  <data name="ASPxGridViewStringId.CommandApplyFilter">
+    <value>Applica</value>
+  </data>
+  <data name="ASPxGridViewStringId.CommandBatchEditCancel">
+    <value>Annulla le modifiche</value>
+  </data>
+  <data name="ASPxGridViewStringId.CommandBatchEditUpdate" xml:space="preserve">
+    <value>Salvare le modifiche</value>
+  </data>
+  <data name="ASPxGridViewStringId.ConfirmOnLosingBatchChanges" xml:space="preserve">
+    <value>Sei sicuro di voler eseguire l'azione? Tutti i dati della griglia non salvati andranno persi.</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_DeleteRow" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_NewRow" xml:space="preserve">
+    <value>Nuovo</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_Refresh" xml:space="preserve">
+    <value>Aggiorna</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_CollapseRow" xml:space="preserve">
+    <value>Comprimi</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_ExpandRow" xml:space="preserve">
+    <value>Espandi</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_ClearFilter" xml:space="preserve">
+    <value>Pulisci Filtro</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_EditRow" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_ClearSorting" xml:space="preserve">
+    <value>Pulisci Ordinamento</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_ShowCustomizationWindow" xml:space="preserve">
+    <value>Selezione Colonne</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_ShowFooter" xml:space="preserve">
+    <value>Piè di Pagina</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_SortAscending" xml:space="preserve">
+    <value>Ordinamento Crescente</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_SortDescending" xml:space="preserve">
+    <value>Ordinamento Decrescente</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_SummaryAverage" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_SummaryCount" xml:space="preserve">
+    <value>Conteggio</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_SummaryMax" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_SummaryMin" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_SummarySum" xml:space="preserve">
+    <value>Somma</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_UngroupColumn" xml:space="preserve">
+    <value>Separa</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_FullCollapse" xml:space="preserve">
+    <value>Comprimi tutto</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_FullExpand" xml:space="preserve">
+    <value>Espandi tutto</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_GroupByColumn" xml:space="preserve">
+    <value>Raggruppa per questa colonna</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_ShowColumn" xml:space="preserve">
+    <value>Visualizza la colonna</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_ShowFilterEditor" xml:space="preserve">
+    <value>Crea filtro...</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_ShowFilterRow" xml:space="preserve">
+    <value>Filtro di riga</value>
+  </data>
+  <data name="ASPxGridViewStringId.CommandDeselectAllOnAllPages" xml:space="preserve">
+    <value>Deseleziona tutte le righe in tutte le pagine</value>
+  </data>
+  <data name="ASPxGridViewStringId.CommandDeselectAllOnPage" xml:space="preserve">
+    <value>Deseleziona tutte le righe in questa pagina</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_CollapseDetailRow" xml:space="preserve">
+    <value>Nascondi dettaglio</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_ExpandDetailRow" xml:space="preserve">
+    <value>Mostra dettaglio</value>
+  </data>
+  <data name="ASPxGridViewStringId.CommandSelectAllOnAllPages" xml:space="preserve">
+    <value>Selezionare tutte le righe in tutte le pagine</value>
+  </data>
+  <data name="ASPxGridViewStringId.CommandSelectAllOnPage" xml:space="preserve">
+    <value>Selezionare tutte le righe in questa pagina</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_HideColumn" xml:space="preserve">
+    <value>Nascondere la colonna</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_ShowFilterRowMenu" xml:space="preserve">
+    <value>Menu filtro riga</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_ShowGroupPanel" xml:space="preserve">
+    <value>Pannello di gruppo</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_ClearGrouping" xml:space="preserve">
+    <value>Raggruppamento chiaro</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_SummaryNone" xml:space="preserve">
+    <value>Nessuno</value>
+  </data>
+  <data name="ASPxGridViewStringId.CommandClearSearchPanelFilter" xml:space="preserve">
+    <value>Pulisci</value>
+  </data>
+  <data name="ASPxGridViewStringId.CommandApplySearchPanelFilter" xml:space="preserve">
+    <value>Cerca</value>
+  </data>
+  <data name="ASPxGridViewStringId.SearchPanelEditorNullText" xml:space="preserve">
+    <value>Testo da cercare...</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_ShowSearchPanel" xml:space="preserve">
+    <value>Pannello di ricerca</value>
+  </data>
+  <data name="ASPxGridViewStringId.CardView_CommandCustomizationButton" xml:space="preserve">
+    <value>Personalizzazione</value>
+  </data>
+  <data name="ASPxGridViewStringId.CardView_CustomizationWindowCaption" xml:space="preserve">
+    <value>Personalizzazione</value>
+  </data>
+  <data name="ASPxGridViewStringId.CardView_PagerRowPerPage" xml:space="preserve">
+    <value>Righe per pagina:</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterToday" xml:space="preserve">
+    <value>Oggi</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterTomorrow" xml:space="preserve">
+    <value>Domani</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterYesterday" xml:space="preserve">
+    <value>Ieri</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterFrom" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterLastMonth" xml:space="preserve">
+    <value>Mese scorso</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterLastWeek" xml:space="preserve">
+    <value>Settimana scorsa</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterLastYear" xml:space="preserve">
+    <value>Anno scorso</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterNextMonth" xml:space="preserve">
+    <value>Mese prossimo</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterNextYear" xml:space="preserve">
+    <value>Anno prossimo</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterThisMonth" xml:space="preserve">
+    <value>Questo mese</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterThisWeek" xml:space="preserve">
+    <value>Questa settimana</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterThisYear" xml:space="preserve">
+    <value>Quest'anno</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterNextWeek" xml:space="preserve">
+    <value>La prossima settimana</value>
+  </data>
+  <data name="ASPxGridViewStringId.CardView_EndlessPagingShowMoreCardsButton" xml:space="preserve">
+    <value>Visualizza ulteriori carte...</value>
+  </data>
+  <data name="ASPxGridViewStringId.CommandHideAdaptiveDetail" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="ASPxGridViewStringId.CommandShowAdaptiveDetail" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="ASPxGridViewStringId.VerticalGrid_AltCollapseCategory" xml:space="preserve">
+    <value>[Comprimi categoria]</value>
+  </data>
+  <data name="ASPxGridViewStringId.VerticalGrid_AltCollapseRow" xml:space="preserve">
+    <value>[Comprimi riga]</value>
+  </data>
+  <data name="ASPxGridViewStringId.ContextMenu_GroupSummaryMenu" xml:space="preserve">
+    <value>Gruppo sintesi</value>
+  </data>
+  <data name="ASPxGridViewStringId.VerticalGrid_AltExpandCategory" xml:space="preserve">
+    <value>[Espandi categoria]</value>
+  </data>
+  <data name="ASPxGridViewStringId.VerticalGrid_AltExpandRow" xml:space="preserve">
+    <value>[Espandi riga]</value>
+  </data>
+  <data name="ASPxGridViewStringId.SelectAllCheckBoxInAllPagesMode" xml:space="preserve">
+    <value>Stato di selezione di tutte le righe in tutte le pagine</value>
+  </data>
+  <data name="ASPxGridViewStringId.SelectAllCheckBoxInPageMode" xml:space="preserve">
+    <value>Stato di selezione di tutte le righe in questa pagina</value>
+  </data>
+  <data name="ASPxGridViewStringId.CommandRecover" xml:space="preserve">
+    <value>Recuperare</value>
+  </data>
+  <data name="ASPxGridViewStringId.HeaderFilterTo" xml:space="preserve">
+    <value>a</value>
+  </data>
+</root>

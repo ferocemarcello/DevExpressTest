@@ -1,0 +1,70 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="DevExpressTest3.QueryViewer" UICulture="it-IT" Culture="it-IT"%>
+
+<%@ Register Assembly="DevExpress.Web.Bootstrap.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.Bootstrap" TagPrefix="dx" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>New Team Query Viewer</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Tesis2002ConnectionString %>" ProviderName="System.Data.SqlClient"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource2" runat="server"  SelectCommand="SELECT Nome FROM Analytics.QuerySalvate" ConnectionString="<%$ ConnectionStrings:Tesis2002ConnectionString %>" ProviderName="System.Data.SqlClient"></asp:SqlDataSource>
+        <dx:ASPxGridViewExporter ID="ASPxGridViewExporter1" runat="server" GridViewID="ASPxGridView1"></dx:ASPxGridViewExporter>
+        <table runat="server">
+            <tr>
+                <td>
+                    <div>
+                        <dx:ASPxButton ID="ASPxButton1" runat="server" OnClick="QueryBuilderButton_Click" Text="Go to the Query Builder">
+                            </dx:ASPxButton>
+                            <dx:ASPxRadioButtonList ID="ASPxRadioButtonList1" runat="server" OnValueChanged="ASPxRadioButtonList1_ValueChanged" DataSourceID="SqlDataSource2" TextField="Nome" AutoPostBack="true"></dx:ASPxRadioButtonList>
+                    </div>
+                </td>
+            
+                <td>
+                    <div>
+
+                    </div>
+                    <div style="text-align:right">
+                        <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/Images/pdf.png" Visible="false"  Height="100px" Width="100px" OnClick="ImageButton_Click" DescriptionUrl="pdf" ImageAlign="Right"/>
+                        <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Images/excel.png" Visible="false" Height="100px" Width="100px" OnClick="ImageButton_Click" DescriptionUrl="xlsx"  ImageAlign="Right"/>
+                        <br/><br/><br/><br/><br/><br/>
+                        <dx:ASPxLabel ID="ASPxLabel1" runat="server" Text="Type destination file name(without extension)" Visible="false"></dx:ASPxLabel>
+                        <asp:TextBox ID="TextBox1" runat="server" Visible="false" BorderWidth="1px" Width="300px"></asp:TextBox>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <dx:ASPxLabel ID="ASPxLabel2" runat="server" Text="ASPxLabel" Visible="false"></dx:ASPxLabel>          
+        <asp:Table ID="Table1" Visible="false" runat="server" EnableViewState="true">
+        </asp:Table>
+        <dx:ASPxButton ID="ASPxButton2" runat="server" Text="Validate Parameters" Visible="False" AutoPostBack="False" OnClick="ASPxButton2_Click">
+            <%--<ClientSideEvents Click="function(s, e) {
+                var t=document.getElementById(&quot;Table1&quot;).rows[0].cells[0];
+                var t2=document.getElementById(&quot;Table1&quot;).rows[0].cells[1];
+                var t3=document.getElementById(&quot;0&quot;);
+                var c=document.getElementById(&quot;Cb2&quot;);
+	Cb2.PerformCallback(t3,null);
+}" />--%>
+        </dx:ASPxButton>
+        <%-- <dx:ASPxCallbackPanel Id="Cb2" runat="server" OnCallback="Cb2_Callback" ClientIDMode="Static" ClientInstanceName="Cb2"> --%>
+        </dx:ASPxCallbackPanel>
+        <dx:ASPxGridView ID="ASPxGridView1" SettingsFilterControl-ShowAllDataSourceColumns="true" ViewStateMode="Disabled" EnableViewState="false" runat="server" AutoGenerateColumns="false"  OnDataBinding="ASPxGridView1_DataBinding" Visible="false">
+            
+
+            <Settings VerticalScrollBarMode="Auto" HorizontalScrollBarMode="Auto" ShowColumnHeaders="true" ShowFilterBar="Visible" ShowFilterRow="true"/>
+            <SettingsBehavior AllowSort="true" SortMode="Value"/>
+            <SettingsDataSecurity AllowDelete="False" AllowEdit="False" AllowInsert="False" />
+            <SettingsSearchPanel Visible="True"/>
+            
+        </dx:ASPxGridView>
+
+    </div>
+       
+    </form>
+    
+</body>
+</html>
